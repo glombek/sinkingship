@@ -1,0 +1,41 @@
+#ship {
+  height:215px;
+  width:383px;
+  background-image: url(http://i44.tinypic.com/2n6eonl.png);
+  background-repeat: no-repeat;
+}
+
+#name {
+  position:absolute;
+  color: white;
+  text-align:center;
+  overflow:hidden;
+  top: 50px;
+  left:113px;
+  width: 75px;
+  height: 20px;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+    font-family:serif;
+}
+
+#share #url {
+  display:none;
+}
+
+
+#share:hover #url {
+  display:initial;
+}
+
+body {
+    font-family: Calibri, "Lucida Grande", "Lucida Sans", Ubuntu, sans-serif;
+    color: #2c2c2c; /* Not Two Bee (http://254shadesofgrey.com) */
+}
+
+a {
+    color: #454545; /* Dirty Grey (http://254shadesofgrey.com) */
+}
