@@ -5,7 +5,7 @@ function setup() {
     $("#name").text(h);
   }
   $("#url").text(window.location);
-  document.title = n + " is Sinking!";
+  document.title = h + " is Sinking!";
 }
 
 $("#name").on("input",function() {
